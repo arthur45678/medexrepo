@@ -1,0 +1,54 @@
+@import "print";
+
+
+.flex-container {
+    display: flex; 
+    margin : 0 auto;
+}
+
+.flex-container > div{
+    margin: 0 auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.flex-item1 {
+    width: 47%;
+    border-right: 1px solid black;
+}
+
+.flex-item2 {
+    width: 6%;
+}
+
+.flex-item3 {
+    width: 47%;
+    border-left: 1px solid black;
+}
+
+.header {
+    padding: 15px;
+    margin-left: 53%;
+    // margin-top: 5%;
+    width: 365px;
+}
+
+.header > table {
+    border: 1px solid black;
+    width: 368px;
+    height: 60px;
+    border-collapse: collapse;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+    height: 200px;
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 50px;
+}

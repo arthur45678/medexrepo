@@ -1,0 +1,57 @@
+https://dennissmink.com/laravel-echo-server-how-to
+https://medium.com/@jan.kulma/laravel-broadcasting-with-redis-and-socket-io-51ce2660633d
+
+1) composer install
+predis/predis
+
+2) npm install
+(laravel-echo, socket.io-client)
+
+3) npm install -g laravel-echo-server
+( գլոբալ նստացնում ենք laravel-echo, laravel-echo-server )
+
+
+4) եթե չկա "laravel-echo-server.json" ֆայլը
+laravel-echo-server init
+
+բոլորը ENTER-ներով մինչև "Enter the host of your Laravel authentication server",
+այստեղ http://medexrepo
+
+
+5) եթե config/app.php -ում App\Providers\BroadcastServiceProvider::class, քոմենթածա, բացել։
+
+6) .env ֆայլում
+APP_URL=http://medexrepo
+MIX_APP_URL=http://medexrepo
+
+BROADCAST_DRIVER=redis
+QUEUE_CONNECTION=redis
+
+REDIS_CLIENT=predis
+REDIS_PREFIX=null
+
+7) անպայման .env-ի ու "laravel-echo-server.json" -ի հոսթերը նունը պետքա լիեն։
+"authHost": "http://medexrepo",
+
+7.1) լավ կլինի "laravel-echo-server.json"-ում  "devMode": true լինի, որ ECHO-ն լոգեր թողնի տերմինալում։
+Սա <laravel-echo-server init> հրամանի առաջին կետն է, որ լռությամբ դնում է "Y" (yes).
+
+8) Մտնել OpenServer->settings (настройки), ու ընտրելով միացնել Redis-ի վերջին վերսիան։ Restart OpenServer
+որից հետո OpenServer->additionally (дополнительно) մենյուի մեջ կտեսնենք PHPRedisAdmin-ը։
+
+8) php artisan config:cache
+9) npm run dev {x2}
+
+-----------------------------
+Starting server and opening queue
+I. php artisan queue:work (terminal 1)
+II. laravel-echo-server start
+
+http://medexrepo/patients/1/referrals/create -ում լրացված ուղեգիրը ուղարկել սեղմելիս
+http://medexrepo/received - ում, կոնսոլում կտեսնենք ուղեգրի քոնթենթը:
+
+
+
+
+
+

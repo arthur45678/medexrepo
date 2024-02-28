@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Exchange xmlns="http://www.armsoft.am/Accountant/6.0">
+  <MTMove xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IsDraft>false</IsDraft>
+    <DocHasSystemEntries>false</DocHasSystemEntries>
+    <ManualEntriesList />
+    <IsDeleted>false</IsDeleted>
+    <DocumentNumber>5773</DocumentNumber>
+    <DocumentDate>2020-10-01T00:00:00</DocumentDate>
+    <Comment>08/04</Comment>
+    <StorageExpense>04</StorageExpense>
+    <StorageIncome>08</StorageIncome>
+    <Chief>Հանեսյան Հասմիկ Կ.</Chief>
+    <Mediator></Mediator>
+    <BookNumber></BookNumber>
+    <BookPage>0</BookPage>
+    <BookRow>0</BookRow>
+    <TaxExportType> </TaxExportType>
+    <TaxInvoiceSeries> </TaxInvoiceSeries>
+    <TaxInvoiceNumber></TaxInvoiceNumber>
+    <TaxInvoiceDate i:nil="true" />
+    <TransportationMethod></TransportationMethod>
+    <PrintWithSellingPrice></PrintWithSellingPrice>
+    <AnalyticGroup1></AnalyticGroup1>
+    <AnalyticGroup2></AnalyticGroup2>
+    <Allower></Allower>
+    <ISN></ISN>
+    <Specification>
+      <MTMoveSpecificationRow>
+        <MTCode>00186</MTCode>
+        <Quantity>10.0000</Quantity>
+        <Amount>4200.0000</Amount>
+        <IncomeSyntAcc>2111/2</IncomeSyntAcc>
+        <ExpenseMethod>1</ExpenseMethod>
+        <PartyMethod>Ավտոընտրություն</PartyMethod>
+      </MTMoveSpecificationRow>
+    </Specification>
+  </MTMove>
+  <MTMove xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IsDraft>false</IsDraft>
+    <DocHasSystemEntries>false</DocHasSystemEntries>
+    <ManualEntriesList />
+    <IsDeleted>false</IsDeleted>
+    <DocumentNumber>5774</DocumentNumber>
+    <DocumentDate>2020-10-01T00:00:00</DocumentDate>
+    <Comment>08/04</Comment>
+    <StorageExpense>04</StorageExpense>
+    <StorageIncome>08</StorageIncome>
+    <Chief>Հանեսյան Հասմիկ Կ.</Chief>
+    <Mediator></Mediator>
+    <BookNumber></BookNumber>
+    <BookPage>0</BookPage>
+    <BookRow>0</BookRow>
+    <TaxExportType> </TaxExportType>
+    <TaxInvoiceSeries> </TaxInvoiceSeries>
+    <TaxInvoiceNumber></TaxInvoiceNumber>
+    <TaxInvoiceDate i:nil="true" />
+    <TransportationMethod></TransportationMethod>
+    <PrintWithSellingPrice></PrintWithSellingPrice>
+    <AnalyticGroup1></AnalyticGroup1>
+    <AnalyticGroup2></AnalyticGroup2>
+    <Allower></Allower>
+    <ISN></ISN>
+    <Specification>
+      <MTMoveSpecificationRow>
+        <MTCode>00187</MTCode>
+        <Quantity>10.0000</Quantity>
+        <Amount>4200.0000</Amount>
+        <IncomeSyntAcc>2111/2</IncomeSyntAcc>
+        <ExpenseMethod>1</ExpenseMethod>
+        <PartyMethod>Ավտոընտրություն</PartyMethod>
+      </MTMoveSpecificationRow>
+    </Specification>
+  </MTMove>
+  <MTMove xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IsDraft>false</IsDraft>
+    <DocHasSystemEntries>false</DocHasSystemEntries>
+    <ManualEntriesList />
+    <IsDeleted>false</IsDeleted>
+    <DocumentNumber>5775</DocumentNumber>
+    <DocumentDate>2020-10-01T00:00:00</DocumentDate>
+    <Comment>08/04</Comment>
+    <StorageExpense>04</StorageExpense>
+    <StorageIncome>08</StorageIncome>
+    <Chief>Հանեսյան Հասմիկ Կ.</Chief>
+    <Mediator></Mediator>
+    <BookNumber></BookNumber>
+    <BookPage>0</BookPage>
+    <BookRow>0</BookRow>
+    <TaxExportType> </TaxExportType>
+    <TaxInvoiceSeries> </TaxInvoiceSeries>
+    <TaxInvoiceNumber></TaxInvoiceNumber>
+    <TaxInvoiceDate i:nil="true" />
+    <TransportationMethod></TransportationMethod>
+    <PrintWithSellingPrice></PrintWithSellingPrice>
+    <AnalyticGroup1></AnalyticGroup1>
+    <AnalyticGroup2></AnalyticGroup2>
+    <Allower></Allower>
+    <ISN></ISN>
+    <Specification>
+      <MTMoveSpecificationRow>
+        <MTCode>00188</MTCode>
+        <Quantity>50.0000</Quantity>
+        <Amount>9507.0000</Amount>
+        <IncomeSyntAcc>2111/2</IncomeSyntAcc>
+        <ExpenseMethod>1</ExpenseMethod>
+        <PartyMethod>Ավտոընտրություն</PartyMethod>
+      </MTMoveSpecificationRow>
+    </Specification>
+  </MTMove>
+  <MTMove xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IsDraft>false</IsDraft>
+    <DocHasSystemEntries>false</DocHasSystemEntries>
+    <ManualEntriesList />
+    <IsDeleted>false</IsDeleted>
+    <DocumentNumber>5776</DocumentNumber>
+    <DocumentDate>2020-10-01T00:00:00</DocumentDate>
+    <Comment>08/04</Comment>
+    <StorageExpense>04</StorageExpense>
+    <StorageIncome>08</StorageIncome>
+    <Chief>Հանեսյան Հասմիկ Կ.</Chief>
+    <Mediator></Mediator>
+    <BookNumber></BookNumber>
+    <BookPage>0</BookPage>
+    <BookRow>0</BookRow>
+    <TaxExportType> </TaxExportType>
+    <TaxInvoiceSeries> </TaxInvoiceSeries>
+    <TaxInvoiceNumber></TaxInvoiceNumber>
+    <TaxInvoiceDate i:nil="true" />
+    <TransportationMethod></TransportationMethod>
+    <PrintWithSellingPrice></PrintWithSellingPrice>
+    <AnalyticGroup1></AnalyticGroup1>
+    <AnalyticGroup2></AnalyticGroup2>
+    <Allower></Allower>
+    <ISN></ISN>
+    <Specification>
+      <MTMoveSpecificationRow>
+        <MTCode>00975</MTCode>
+        <Quantity>10.0000</Quantity>
+        <Amount>840.0000</Amount>
+        <IncomeSyntAcc>2111/2</IncomeSyntAcc>
+        <ExpenseMethod>1</ExpenseMethod>
+        <PartyMethod>Ավտոընտրություն</PartyMethod>
+      </MTMoveSpecificationRow>
+      <MTMoveSpecificationRow>
+        <MTCode>00775</MTCode>
+        <Quantity>20.0000</Quantity>
+        <Amount>14040.0000</Amount>
+        <IncomeSyntAcc>2111/2</IncomeSyntAcc>
+        <ExpenseMethod>1</ExpenseMethod>
+        <PartyMethod>Ավտոընտրություն</PartyMethod>
+      </MTMoveSpecificationRow>
+      <MTMoveSpecificationRow>
+        <MTCode>01614</MTCode>
+        <Quantity>30.0000</Quantity>
+        <Amount>25200.0000</Amount>
+        <IncomeSyntAcc>2111/2</IncomeSyntAcc>
+        <ExpenseMethod>1</ExpenseMethod>
+        <PartyMethod>Ավտոընտրություն</PartyMethod>
+      </MTMoveSpecificationRow>
+    </Specification>
+  </MTMove>
+  <MTMove xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IsDraft>false</IsDraft>
+    <DocHasSystemEntries>false</DocHasSystemEntries>
+    <ManualEntriesList />
+    <IsDeleted>false</IsDeleted>
+    <DocumentNumber>5790</DocumentNumber>
+    <DocumentDate>2020-10-01T00:00:00</DocumentDate>
+    <Comment>19/05</Comment>
+    <StorageExpense>05</StorageExpense>
+    <StorageIncome>19</StorageIncome>
+    <Chief>Հանեսյան Հասմիկ Կ.</Chief>
+    <Mediator></Mediator>
+    <BookNumber></BookNumber>
+    <BookPage>0</BookPage>
+    <BookRow>0</BookRow>
+    <TaxExportType> </TaxExportType>
+    <TaxInvoiceSeries> </TaxInvoiceSeries>
+    <TaxInvoiceNumber></TaxInvoiceNumber>
+    <TaxInvoiceDate i:nil="true" />
+    <TransportationMethod></TransportationMethod>
+    <PrintWithSellingPrice></PrintWithSellingPrice>
+    <AnalyticGroup1></AnalyticGroup1>
+    <AnalyticGroup2></AnalyticGroup2>
+    <Allower></Allower>
+    <ISN></ISN>
+    <Specification>
+      <MTMoveSpecificationRow>
+        <MTCode>00203</MTCode>
+        <Quantity>1.0000</Quantity>
+        <Amount>11500.0000</Amount>
+        <IncomeSyntAcc>2111/2</IncomeSyntAcc>
+        <ExpenseMethod>1</ExpenseMethod>
+        <PartyMethod>Ավտոընտրություն</PartyMethod>
+      </MTMoveSpecificationRow>
+    </Specification>
+  </MTMove>
+</Exchange>

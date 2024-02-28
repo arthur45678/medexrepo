@@ -1,0 +1,378 @@
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:voc="urn:hl7-org:v3/voc"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+    <realmCode code="KZ"></realmCode>
+    <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"></typeId>
+    <templateId root="1.2.398.7.1.10.1.1.15"></templateId>
+    <id root="{sylex:doc_unique_number}" ></id>
+    <code code="2000" codeSystem="1.2.398.7.1.10.3.1" codeSystemName="ClinicalDocuments" displayName="Рецепт"></code>
+    <title>Рецепт</title>
+    <effectiveTime value="20190219110025"></effectiveTime>
+    <confidentialityCode code="N" codeSystem="1.2.398.7.1.10.3.4" codeSystemName="Confidentiality"></confidentialityCode>
+    <languageCode code="{sylex:doc_lang}"></languageCode>
+    <setId root="{sylex:doc_set_id}"></setId>
+    <versionNumber value="{sylex:doc_version}"></versionNumber>
+    <recordTarget>
+        <!-- patient -->
+        <patientRole>
+            <id root="1.2.398.7.1.3.1" extension="8105880113"></id>
+            <id root="{sylex:patient_oid}"></id>
+            <id root="1.2.398.7.1.3.3" extension="AS0280064"></id>
+            <id root="1.2.398.7.1.3.4" extension="{sylex:patient_temporary_id}"></id>
+            <id root="1.2.398.7.1.3.5" extension="{sylex:patient_newborn_id}"></id>
+            <patient>
+                <!-- mothers name -->
+                <name>
+                    <given>Կարեն</given>
+                    <family>Կարապետյան</family>
+                    <patronymic>Կարապետի</patronymic>
+                </name>
+                <!-- mothers gender -->
+                <administrativeGenderCode code="2" codeSystem="1.2.398.7.1.4.2.1" displayName="իգական" codeSystemName="Gender Code"></administrativeGenderCode>
+                <!-- mothers birth date -->
+                <birthTime value="19880531"></birthTime>
+            </patient>
+        </patientRole>
+    </recordTarget>
+    <recordTarget>
+        <!-- patient -->
+        <patientRole>
+            <id root="1.2.398.7.1.3.1" extension="8105880113"></id>
+            <id root="{sylex:patient_oid}"></id>
+            <id root="1.2.398.7.1.3.3" extension="AS0280064"></id>
+            <id root="1.2.398.7.1.3.4" extension="{sylex:patient_temporary_id}"></id>
+            <id root="1.2.398.7.1.3.5" extension="{sylex:patient_newborn_id}"></id>
+            <patient>
+                <!-- mothers name -->
+                <name>
+                    <given>Սուրեն</given>
+                    <family>Սուրենյան</family>
+                    <patronymic>Սուրենի</patronymic>
+                </name>
+                <!-- mothers gender -->
+                <administrativeGenderCode code="2" codeSystem="1.2.398.7.1.4.2.1" displayName="իգական" codeSystemName="Gender Code"></administrativeGenderCode>
+                <!-- mothers birth date -->
+                <birthTime value="19880531"></birthTime>
+            </patient>
+        </patientRole>
+    </recordTarget>
+    <recordTarget>
+        <!-- patient -->
+        <patientRole>
+            <id root="1.2.398.7.1.3.1" extension="8105880113"></id>
+            <id root="{sylex:patient_oid}"></id>
+            <id root="1.2.398.7.1.3.3" extension="AS0280064"></id>
+            <id root="1.2.398.7.1.3.4" extension="{sylex:patient_temporary_id}"></id>
+            <id root="1.2.398.7.1.3.5" extension="{sylex:patient_newborn_id}"></id>
+            <patient>
+                <!-- mothers name -->
+                <name>
+                    <given>ԳԱՅԱՆԵ</given>
+                    <family>ՀԱՐՈՒԹՅՈՒՆՅԱՆ</family>
+                    <patronymic>ՎԱՀԱԳՆԻ</patronymic>
+                </name>
+                <!-- mothers gender -->
+                <administrativeGenderCode code="2" codeSystem="1.2.398.7.1.4.2.1" displayName="իգական" codeSystemName="Gender Code"></administrativeGenderCode>
+                <!-- mothers birth date -->
+                <birthTime value="19880531"></birthTime>
+            </patient>
+        </patientRole>
+    </recordTarget>
+
+
+    <author typeCode="AUT" contextControlCode="OP">
+        <templateId root="1.2.398.7.1.10.1.4.23"></templateId>
+        <!-- Not required. But needs to be position of user in organization -->
+        <functionCode code ="{sylex:author_doctor_function}" displayName="{sylex:author_function_text}" codeSystem="1.2.398.7.1.4.2.25" codeSystemName="HC Professional RoleCode" ></functionCode>
+        <!-- Time of document creation. Required by HL7 -->
+        <time value="19950110"></time>
+        <assignedAuthor classCode="ASSIGNED">
+            <id extension="6001950091" root="1.2.398.7.1.3.1"></id>
+            <assignedPerson>
+                <name>
+                    <given>ՄԻԼԵՆԱ</given>
+                    <family>ՀԱՅՐԱՊԵՏՅԱՆ</family>
+                    <patronymic>ԱՐԱՄԻ</patronymic>
+                </name>
+            </assignedPerson>
+            <representedOrganization>
+                <id root="{sylex:author_doctor_unit_oid}"></id>
+                <name>{sylex:author_doctor_unit_name_srlz}</name>
+                <asOrganizationPartOf classCode="PART">
+                    <wholeOrganization>
+                        <id root="{sylex:author_doctor_hospital_oid}"></id>
+                        <name>{sylex:author_doctor_hospital_name_srlz}</name>
+
+                    </wholeOrganization>
+                </asOrganizationPartOf>
+            </representedOrganization>
+        </assignedAuthor>
+    </author>
+    <author typeCode="AUT" contextControlCode="OP">
+        <templateId root="1.2.398.7.1.10.1.4.24"></templateId>
+        <time value="20190219110025"></time>
+    </author>
+    <custodian>
+        <!-- HC organization -->
+        <assignedCustodian>
+            <representedCustodianOrganization>
+                <!-- Healthcare Institution ID -->
+                <id root="4503599644149858"></id>
+                <!-- Name of healthcare institution  -->
+                <name>{sylex:hospital_name_srlz}</name>
+                <!-- Address of healthcare institution  -->
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+    <authenticator typeCode="AUTHEN">
+        <templateId root="1.2.398.7.1.10.1.4.42"></templateId>
+        <time value="20190219110025"></time>
+        <signatureCode code="S"></signatureCode>
+        <assignedEntity classCode="ASSIGNED">
+            <id extension="6001950091" root="1.2.398.7.1.3.1"></id>
+            <code code="1" displayName="Author" codeSystem="1.2.398.7.1.4.2.635"></code>
+            <assignedPerson>
+                <name>
+                    <given>ՄԻԼԵՆԱ</given>
+                    <family>ՀԱՅՐԱՊԵՏՅԱՆ</family>
+                    <patronymic>ԱՐԱՄԻ</patronymic>
+                </name>
+            </assignedPerson>
+            <representedOrganization>
+                <id root="{sylex:author_department_oid}"></id>
+                <name>{sylex:author_department_name_srlz}</name>
+                <asOrganizationPartOf classCode="PART">
+                    <wholeOrganization>
+                        <id root="{sylex:author_hospital_oid}"></id>
+                        <name>{sylex:author_hospital_name_srlz}</name>
+                        <!-- Address of healthcare institution  -->
+                    </wholeOrganization>
+                </asOrganizationPartOf>
+            </representedOrganization>
+        </assignedEntity>
+    </authenticator>
+    <componentOf>
+        <!-- Healthcare Activity Period or Clinical Process Episode in which referral was created -->
+        <encompassingEncounter>
+            <id root="1.2.398.7.1.11.8" extension="{sylex:visit_uuid}"></id>
+            <code code="2" codeSystem="1.2.398.7.1.4.2.562"></code>
+            <effectiveTime xsi:type="IVL_TS">
+                <low value="20190219110122"></low>
+                <high value="20190219110722"></high>
+            </effectiveTime>
+			<!-- PURPOSE APPLY -->
+			<code
+				code="1"
+				displayName="Հիվանդություն"
+				codeSystem="1.2.398.7.1.4.2.122"
+				SystemName="visit reason"></code>
+			<!-- VISIT NUBER not mandatory-->
+				<entry>
+					<act classCode="ACT" moodCode="EVN">
+						<templateId root="1.2.398.7.1.10.1.2.19"/>
+						<text>8</text>
+					</act>
+				</entry>
+            <component>
+                <supportingClinicalStatement>
+                    <templateId root="1.2.398.7.1.10.1.7.2"></templateId>
+                    <!-- HEALTH ISSUE 1..*-->
+                        <entry typeCode="COMP">
+                            <observation classCode="OBS" moodCode="EVN">
+                                <templateId root="1.2.398.7.1.10.1.3.490"></templateId>
+                                <code code="85" codeSystem="1.2.398.7.1.10.3.3" codeSystemName="Клинические записи" displayName="Вопрос здоровья"></code>
+                                <!-- HEALTH ISSUE ID 1..1 -->
+                                <entryRelationship typeCode="REFR">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                        <templateId root="1.2.398.7.1.10.1.3.195"></templateId>
+                                        <code code="85" codeSystem="1.2.398.7.1.10.3.3" codeSystemName="Клинические записи" displayName="Вопрос здоровья"></code>
+                                        <value xsi:type="II" root="1.2.398.7.1.11.2" extension="{sylex:header_health_issue_uuid}"></value>
+                                    </observation>
+                                </entryRelationship>
+                                <!-- DIAGNOSIS 1..* -->
+                                    <entryRelationship typeCode="SUBJ">
+                                        <observation classCode="OBS" moodCode="DEF">
+                                            <templateId root="1.2.398.7.1.10.1.3.192"></templateId>
+                                            <!-- DIAGNOSIS RECORD ID 1..1 -->
+                                            <id root="1.2.398.7.1.10.1.10.2" extension="{sylex:header_diagnosis_record_id}"></id>
+                                            <!-- DIAGNOSIS TYPE 1..1 -->
+                                            <code
+												code="6"
+												displayName="Շտապ օգնության կանչ"
+												codeSystem="1.2.398.7.1.4.2.121"
+												codeSystemName="Case types"></code>
+												<!-- DIAGNOSIS NUBER -->
+											<entry>
+												<act classCode="ACT" moodCode="EVN">
+													<templateId root="1.2.398.7.1.10.1.2.18"/>
+													<text>7</text>
+												</act>
+											</entry>
+                                            <!-- DIAGNOSIS DESCRIPTION 0..1 not mandatory-->
+                                            <text>նկարագրություն</text>
+                                            <!-- DIAGNOSIS PERIOD 1..1-->
+                                            <effectiveTime>
+                                                <!-- 1..1 -->
+                                                <low value="20190219110204"></low>
+                                                <!-- 0..1 not mandatory-->
+                                                <high value=""></high>
+                                            </effectiveTime>
+                                            <!-- DIAGNOSIS ICD-10 1..1 -->
+                                            <value xsi:type="CD"
+												code="A00"
+												displayName="Խոլերա"
+												codeSystemName="ICD 10"
+												codeSystem="2.16.840.1.113883.6.3"></value>
+                                        </observation>
+                                    </entryRelationship>
+
+                            </observation>
+                        </entry>
+
+
+						<serviceInfo>
+						<!-- service code -->
+							<entry typeCode="DRIV">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="1.2.398.7.1.10.1.2.1"></templateId>
+									<value xsi:type="CD" code="0800030"
+													displayName="(ՊԱԳ 2017) Հիվանդի տեղափոխում մարզից Երևան կամ այլ տարածաշրջանային հիվանդանոցներ /200 կմ-ից ավել/ 60000"
+													codeSystemName="service code" codeSystem="1.2.398.7.1.4.2.1"></value>
+								</observation>
+							</entry>
+
+						<!-- service date -->
+							<entry>
+								<act classCode="ACT" moodCode="EVN">
+									<templateId root="1.2.398.7.1.10.1.3.3"/>
+									<effectiveTime>
+										<low value="20190214110507"/>
+										<high value="20190214120507"/>
+									</effectiveTime>
+								</act>
+							</entry>
+
+
+								<coverInfo>
+
+								<!-- cover code -->
+									<entry typeCode="DRIV">
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="1.2.398.7.1.10.1.2.6"></templateId>
+											<value xsi:type="CD" code="1111"
+													displayName="Ամբուլատոր – վնասվածքաբանություն"
+													codeSystemName="cover code" codeSystem="1.2.398.7.1.4.2.5"></value>
+										</observation>
+									</entry>
+								<!-- cover price -->
+									<entry>
+										<act classCode="ACT" moodCode="EVN">
+											<templateId root="1.2.398.7.1.10.1.2.8"/>
+											<text>60000</text>
+										</act>
+									</entry>
+								<!-- paid percent not mandatory-->
+									<entry typeCode="DRIV">
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="1.2.398.7.1.10.1.2.9"></templateId>
+											<value xsi:type="CD" code="1"
+													displayName="100%"
+													codeSystemName="Service Discount" codeSystem="1.2.398.7.1.4.2.61"></value>
+										</observation>
+									</entry>
+								<!-- Service Referal Types  not mandatory-->
+									<entry typeCode="DRIV">
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="1.2.398.7.1.10.1.2.21"></templateId>
+											<value xsi:type="CD" code="1"
+													displayName="Չի տեղափոխվել"
+													codeSystemName="Service Referal Types" codeSystem="1.2.398.7.1.4.2.62"></value>
+										</observation>
+									</entry>
+								<!-- urgent -->
+									<entry>
+										<observation classCode="OBS" moodCode="EVN" negationInd="false">
+											<templateId root="1.2.398.7.1.10.1.2.10"/>
+											 <value xsi:type="BL" value="0"></value>
+											<!--<id root=""/>-->
+										</observation>
+									</entry>
+								<!-- cover date -->
+									<entry>
+										<act classCode="ACT" moodCode="EVN">
+											<templateId root="1.2.398.7.1.10.1.2.11"/>
+											<effectiveTime>
+												<low value="20190219112035"/>
+											</effectiveTime>
+										</act>
+									</entry>
+								<!-- cover description not mandatory-->
+									<component>
+										<section>
+											<templateId root="1.2.398.7.1.10.1.2.12"></templateId>
+											<title>cover description</title>
+											<text>Նկարագրություն</text>
+										</section>
+									</component>
+								</coverInfo>
+								<!--<correction> future -->
+								<!-- correction -->
+									<!--<entry>
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="1.2.398.7.1.10.1.2.13"/>
+											<value xsi:type="BL" value="1"></value>
+										</observation>
+									</entry> -->
+								<!-- correction reason-->
+									<!--<entry>
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="1.2.398.7.1.10.1.2.14"></templateId>
+											<value xsi:type="CD" code="11"
+												displayName="ՍՏՈՒԳՄԱՆ ԱԿՏ"
+												codeSystemName="correction base" codeSystem="1.2.398.7.1.4.2.114"></value>
+										</observation>
+									</entry> -->
+								<!-- correction reason description-->
+									<!--<component>
+										<section>
+											<templateId root="1.2.398.7.1.10.1.2.15"></templateId>
+											<title>correction reason description</title>
+											<text>Հիմք</text>
+										</section>
+									</component>-->
+								<!--</correction>-->
+
+						</serviceInfo>
+
+				</supportingClinicalStatement>
+            </component>
+        </encompassingEncounter>
+    </componentOf>
+    <component>
+        <structuredBody>
+            <!-- ambulance call -->
+                    <component>
+                        <section>
+                            <templateId root="1.2.398.7.1.10.1.2.16"></templateId>
+                            <title>call info</title>
+                            <!-- ambulance call info -->
+							<entry>
+								<act classCode="ACT" moodCode="EVN">
+									<templateId root="1.2.398.7.1.10.1.3.3"/>
+									<effectiveTime>
+										<low value="20190217104020"/>
+									</effectiveTime>
+								</act>
+							</entry>
+                            <!-- patient call address -->
+							<component>
+                                <section>
+                                    <templateId root="1.2.398.7.1.10.1.2.17"></templateId>
+                                    <title>call address info</title>
+                                    <text>Հրաչյա Ներսիսյան 14/1</text>
+                                </section>
+                            </component>
+                        </section>
+                    </component>
+        </structuredBody>
+    </component>
+    </ClinicalDocument>

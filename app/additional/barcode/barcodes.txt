@@ -1,0 +1,35 @@
+https://investmentnovel.com/laravel-barcode-generator-tutorial-with-example/
+https://laravelarticle.com/laravel-barcode-tutorial
+https://github.com/milon/barcode
+
+view file  - resources\views\patients\barcode.blade.php
+scan from monitor - c128
+DNS1D::getBarcodeSVG() method give the best quality for scanning
+
+vendor\milon\barcode\src\Milon\Barcode\DNS1D.php - all types of 1d code.
+
+xprinter drivers dowload link
+https://www.seagullscientific.com/support/downloads/drivers/xprinter/download/
+download file name - Xprinter_2020.4.exe
+
+1) run Xprinter_2020.4.exe
+2) turn off printer, then turn on - the system should recognize USB connection to continue installation.
+3) printer name - Xprinter xp 370b
+4) make new pattern Axiom-pattern-30x20
+    and make new stock (axiom-stock-30x20) - on the next point.
+
+5) setup printer settings
+    Devices and Printers->find the printer->right click->Printer preferences->
+    new Stock name - axiom-stock-30x20
+    type Die-Cut Labels
+    Label Size.
+        Width: 1.00 in / Height: 0.29 in
+    Exposed Liner Widths
+        Left: 0.00 in / Right: 0.00 in
+
+        * sizes here you can input like this - 30 mm, and system automaticaly convert it to inch.
+
+6) print operation is run with CTRL+SHIFT+P hot keys.
+
+
+scaner drivers setup automaticaly - need internet connection, to download them.

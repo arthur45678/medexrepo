@@ -1,0 +1,20 @@
+
+# User
+Login user POST - http://medexrepo/api/user/login
+username + password
+
+user_id + auth_token {
+    User patients POST - http://medexrepo/api/users/1/patients
+    User patient with samples POST - http://medexrepo/api/users/1/patients/1
+
+    User stationaries GET - http://medexrepo/api/patients/1/stationary
+    User stationary GET - http://medexrepo/api/patients/1/stationary/1
+
+    User ambulators GET - http://medexrepo/api/patients/1/ambulator
+    User ambulator GET - http://medexrepo/api/patients/1/ambulator/1
+}
+
+===========
+# api testing users into web.php
+    Route::get('users/{user}/patients/{patient}', 'Api\UserController@patient');
+    Route::get('users/{user}/patients', 'Api\UserController@patients');

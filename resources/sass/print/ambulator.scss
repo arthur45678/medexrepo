@@ -1,0 +1,198 @@
+@import "print";
+
+.flex-container {
+    display: flex;
+    background-color: white;
+}
+
+.flex-container > div {
+    height: 360px;
+    padding: 15px;
+}
+
+.flex-item2 {
+    width: 50%;
+}
+
+.flex-item1 {
+    width: 25%;
+}
+
+.flex-item3 {
+    width: 25%;
+}
+
+.abulator {
+    text-align: center;
+}
+
+
+ul li {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+ul {
+    padding-inline-start: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.clinic-img {
+    margin: 0 auto;
+}
+
+span {
+    margin-left: 20px;
+}
+
+.second-table > table {
+    width: 98%;
+    height: 100px;
+    border: 1px solid;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.harmfuls {
+    padding: 10px;
+}
+
+.sec-table-height td {
+    height: 30px;
+}
+
+.doctor-container > p {
+    border-bottom: 1px solid black;
+}
+
+.doctor-container {
+    width: 98%;
+    min-height: 100px;
+    margin: 0 auto;
+}
+
+.doctro-st {
+    width: 40%;
+}
+
+.doctor-container > table {
+    width: 100%;
+    border: 1px solid black;
+    min-height: 100px;
+    text-align: center;
+}
+
+#td-width {
+    width: 200px;
+}
+
+.doctor-container-2 {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.doctor-container-2 > table {
+    width: 100%;
+    border: 1px solid black;
+    height: auto;
+    text-align: center;
+}
+
+.doctor-container-2 > table  td {
+    width: 308px;
+    height: 30px;
+}
+
+.doctor-container .border-none {
+    text-align: center;
+    border: none;
+}
+
+.flex-item3 td {
+    text-align: center;
+}
+
+.flex-item3 table {
+    height: 243px;
+    width: 98%;
+}
+
+span {
+    margin-left: 5%;
+}
+
+.display-block1 {
+    float: left;
+}
+
+.display-block2 {
+    margin-left: 180px;
+    width: 50%;
+    border-bottom: 1px solid black;
+}
+
+/* page 2 */
+
+.flex-container2 {
+    display: flex;
+}
+
+.flex-container2 > div {
+    padding: 10px;
+    height: 280mm;;
+}
+
+.flex-item_1 {
+    width: 37%;
+}
+
+.flex-item_2 {
+    width: 33%;
+}
+
+.flex-item_3 {
+    width: 33%;
+}
+
+.flex-item_4 {
+    width: 49%;
+}
+
+.flex-item_5 {
+    width: 49%;
+}
+
+/* page 3 */
+
+.flex-container3 {
+    display: flex;
+    height: 292mm;
+}
+
+.flex-container3 > div {
+    padding: 15px;
+    height: auto;
+}
+
+.flex-item_10 {
+    width: 25%;
+}
+
+.flex-item_11 {
+    width: 75%;
+}
+
+img {
+    width: 70%;
+    height: auto;
+}

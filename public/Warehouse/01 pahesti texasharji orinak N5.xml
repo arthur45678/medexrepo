@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Exchange xmlns="http://www.armsoft.am/Accountant/6.0">
+  <MTMove xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IsDraft>false</IsDraft>
+    <DocHasSystemEntries>true</DocHasSystemEntries>
+    <ManualEntriesList />
+    <IsDeleted>false</IsDeleted>
+    <DocumentNumber>5934</DocumentNumber>
+    <DocumentDate>2020-09-28T00:00:00</DocumentDate>
+    <Comment>Ֆինանսական 80 պաշար/պարագա</Comment>
+    <StorageExpense>01</StorageExpense>
+    <StorageIncome>80</StorageIncome>
+    <Chief>Հանեսյան Հասմիկ Կ.</Chief>
+    <Mediator></Mediator>
+    <BookNumber></BookNumber>
+    <BookPage>0</BookPage>
+    <BookRow>0</BookRow>
+    <TaxExportType> </TaxExportType>
+    <TaxInvoiceSeries> </TaxInvoiceSeries>
+    <TaxInvoiceNumber></TaxInvoiceNumber>
+    <TaxInvoiceDate i:nil="true" />
+    <TransportationMethod></TransportationMethod>
+    <PrintWithSellingPrice></PrintWithSellingPrice>
+    <AnalyticGroup1></AnalyticGroup1>
+    <AnalyticGroup2></AnalyticGroup2>
+    <Allower></Allower>
+    <ISN></ISN>
+    <Specification>
+      <MTMoveSpecificationRow>
+        <MTCode>տ4343</MTCode>
+        <Quantity>1.0000</Quantity>
+        <Amount>1800.0000</Amount>
+        <IncomeSyntAcc>2117</IncomeSyntAcc>
+        <ExpenseMethod>1</ExpenseMethod>
+        <PartyMethod>Ընտրված է խմբաքանակ</PartyMethod>
+      </MTMoveSpecificationRow>
+    </Specification>
+  </MTMove>
+</Exchange>

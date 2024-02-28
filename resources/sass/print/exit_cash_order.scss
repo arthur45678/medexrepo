@@ -1,0 +1,33 @@
+@import "print";
+@import "cash_entry_order";
+
+
+.exit-cash{
+    display: flex;
+    margin-left: 34%;
+}
+.table-margin{
+    margin-left: 40%;
+}
+.table3{
+    border-collapse: collapse;
+    margin-left: 7%;
+}
+.code-number{
+    display: flex;
+    margin-left: 70%;
+
+}
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 40px;
+    border: 2px solid;
+    text-align: center;
+
+}
+.code{
+    margin-top: 10px;
+}

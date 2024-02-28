@@ -1,0 +1,12 @@
+@import "print";
+
+td,th{
+    height: 41px;
+}
+th{text-align: center;} 
+
+
+table{border:1px solid;
+      width: 100%;
+      border-collapse: collapse;
+  }

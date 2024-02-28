@@ -1,0 +1,147 @@
+﻿1) controller -catalogs
+
+clinics
+harmfuls
+cancer_group
+
+2) controller - indi
+patients
+
+
+=================Models/ folder for models ==================
+
+$ php artisan make:model Models/Clinic -m
+- public $timestamps = false; // and remove $table->timestamp(); from migrations too...
+- protected $fillable = ['regular_id', 'name'];
+
+	Schema::create('clinics', function (Blueprint $table) {
+            $table->smallIncrements('id');
+            $table->smallInteger('regular_id');
+            $table->string('name', 170);
+        });
+
+========== Catalogs/ folder for data, that's like a simple list in db (no relations).
+$ php artisan make:controller Catalogs/ClinicController --resource --model=Models/Clinic
+
+$ php artisan make:factory ClinicFactory
+
+	(((( Faker has 3 modifiers, unique() is one of them
+	(((( link-> https://github.com/fzaninotto/Faker#fakerprovideren_ustext
+	(((( fake_locale is set "hy_AM", but trans-s are not complate.
+
+     return [
+        'regular_id'=>$faker->unique()->numberBetween($min = 1, $max = 15),
+        'name'=>$faker->text($maxNbChars = 30) // 255
+     ];
+
+$ php artisan make:seeder ClinicSeeder
+
+	public function run()
+    	{
+           factory(App\Models\Clinic::class, 10)->create();
+    	}
+
+DatabaseSeeder
+$this->call(ClinicSeeder::class);
+
+$ php artisan migrate:fresh --seed
+
+----------------------------
+>>> harmful-i hamar (aranc factory-i, miayn seeder-ov)
+
+HarmfulSeeder
+
+public $harmfuls = [
+        'ծխում է',
+        'խմում է',
+    ];
+
+public function run()
+    {
+        foreach($this->harmfuls as $key => $harm) {
+            Harmful::create(['regular_id' => ($key+1), 'name'=>$harm]);
+        }
+
+    }
+
+>>> cancer_group-i hamar nuyn karucvacqov.
+------------------
+
+patients
+patient_first_infos (one to one ->patient)
+harmful_patient (many-to-many)
+cancer_group_patient (patient has many group)
+
+
+---------------------
+diagnoses
+նախնական և վերջնական ախտ․
+
+each patient( ambulator) may not have or have one || two dignoses.
+[ambulator -> diagnosis HasMany]
+
+each diagnosis has one patient (ambulator)
+each diagnosis has one doctor (user)
+
+each doctor has many diagnoses (or maybe many patients ?, late...)
+[user-> diagnosis HasMany]
+
+---------------------
+Attendance
+ambulator has-many attendances (ներկայացել է/հաճախումների հսկողություն)
+
+---------------------
+complaints
+ambulator has-many attendances (գանգատ)
+
+---------------------
+last_diseases
+ինչ հիվանդությունով է հիվանդացել
+ambulator has-many last_diseases
+
+այս հարաբերությունը փոխերինվեց diagnosis-ով։ 07.09.2020
+---------------------
+disease_lists
+like a "clinic" is catalog
+php artisan make:controller Catalogs/DiseaseListController --resource --model=Models/DiseaseList
+
+---------------------
+female_issues
+բարդություններ կրծքով կերակրելու շրջանում
+կրծքագեղձի բորբոքում
+և այլն ․․․
+
+---------------------
+onset_and_development
+հիվանդության սկիզբը և դրա զարգացումը
+the onset of the disease and its development
+
+---------------------
+tumor_info
+ուռուցքի նկարագրությունը և նրա տեղակայումը
+description of the tumor and its location
+
+---------------------
+Հիվանդի վիճակը և նշանակումները
+medicine_list -> catalogs/controller + models/ + migration (has code and name)
+health_status -> mig-model-seed-relations
+prescriptions -> mig-model-seed-relations
+
+ambulator: has many health_statuses
+health_status: has many prescriptions
+
+
+------------------------
+------------------------
+catalog - treatment_lists
+
+$php artisan make:model Models/TreatmentList -m
+$php artisan make:controller Catalogs/TreatmentListController --resource --model=Models/TreatmentList
+
+***
+useful link - <<How to fill seeder from json file>>
+https://medium.com/@kolawrites/seed-me-some-json-data-how-laravel-makes-everything-a-piece-of-cake-b249ff81ecdc
+
+***
+
+

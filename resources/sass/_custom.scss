@@ -1,0 +1,706 @@
+// Here you can add other styles
+
+/*
+    Dark Theme.
+*/
+
+.c-dark-theme {
+    $dark_primary: #4638c2;
+    $secondary: #4c4f54;
+    $success: #45a164;
+    $info: #4799eb;
+    $warning: #e1a82d;
+    $danger: #d16767;
+    $light: #20202a;
+    $dark: #181924;
+    $color: #e1e1e1;
+
+    color: $color;
+    background-color: #0a0b18;
+
+    //Buttons
+
+    .btn-primary {
+        color: #fff;
+        background-color: $dark_primary;
+        border-color: $dark_primary;
+
+        &:hover {
+            color: #fff;
+            background-color: #3b2fa4;
+            border-color: #382d9a;
+        }
+
+        &:not(:disabled):not(.disabled):active,
+        .show > &.dropdown-toggle {
+            color: #fff;
+            background-color: #382d9a;
+            border-color: #342a91;
+        }
+
+        &.dropdown-toggle {
+            color: #fff;
+            background-color: #382d9a;
+            border-color: #342a91;
+        }
+
+        &:focus,
+        &.focus {
+            color: #fff;
+            background-color: #3b2fa4;
+            border-color: #382d9a;
+            box-shadow: 0 0 0 0.2rem rgba(98, 86, 203, 0.5);
+        }
+
+        &.disabled,
+        &:disabled {
+            color: #fff;
+            background-color: #4638c2;
+            border-color: #4638c2;
+        }
+    }
+
+    .btn-secondary {
+        color: #fff;
+        background-color: #4c4f54;
+        border-color: #4c4f54;
+
+        &:hover {
+            color: #fff;
+            background-color: #3a3c40;
+            border-color: #343639;
+        }
+
+        &:not(:disabled):not(.disabled):active,
+        .show > &.dropdown-toggle {
+            color: #fff;
+            background-color: #343639;
+            border-color: #2e3033;
+        }
+
+        &:focus,
+        &.focus {
+            color: #fff;
+            background-color: #3a3c40;
+            border-color: #343639;
+            box-shadow: 0 0 0 0.2rem rgba(103, 105, 110, 0.5);
+        }
+
+        &.disabled,
+        &:disabled {
+            color: #fff;
+            background-color: #4c4f54;
+            border-color: #4c4f54;
+        }
+    }
+    //EndButtons
+
+    /* Dropdown menus */
+
+    .dropdown-menu {
+        color: $color;
+        background-color: #34343b;
+        border-color: $dark;
+    }
+
+    .dropdown-header {
+        color: $color;
+        background-color: #34343b;
+        border-color: $dark;
+    }
+
+    .dropdown-item {
+        color: $color;
+
+        &:hover,
+        &:focus {
+            color: $color;
+            background-color: $light_grey;
+        }
+
+        &.active,
+        &:active {
+            color: #fff;
+            background-color: $primary;
+        }
+    }
+    //End Dropdown menus
+
+    // Lists
+    .list-group-item {
+        color: $color;
+        background-color: inherit;
+        border-color: $dark;
+    }
+    //EndLists
+
+    //Tables
+
+    .table {
+        color: $color;
+        background-color: transparent;
+
+        thead th {
+            border-bottom-color: $light_grey;
+        }
+
+        th,
+        td {
+            border-color: $light_grey;
+            border-top-color: $light_grey;
+        }
+    }
+
+    .table-bordered {
+        border-color: $light_grey;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: rgba(0, 0, 21, 0.05);
+    }
+
+    //EndTables
+
+    //Forms
+
+    .form-control {
+        color: $color;
+        background-color: rgb(62 43 50);
+        border-color: $light_grey;
+    }
+
+    .input-group-text {
+        color: rgba(225, 225, 225, 0.5);
+        background-color: $dark;
+        border-color: $dark;
+    }
+
+    //EndForms
+
+    //Cards
+    .card {
+        background-color: #23242d;
+        border-color: $dark;
+    }
+
+    .card-header {
+        background-color: $light;
+        border-color: $dark;
+    }
+    //EndCards
+
+    //Header
+    .c-header {
+        background: #2c2c34;
+        border-bottom: 0;
+
+        .c-header-nav .c-header-nav-link,
+        .c-header-nav .c-header-nav-btn {
+            color: rgba(255, 255, 255, 0.75);
+        }
+
+        .c-header-toggler {
+            color: rgba(255, 255, 255, 0.75);
+            border-color: $light_grey;
+        }
+
+        .c-subheader {
+            margin-top: -1px;
+            border-top: 1px solid $dark;
+            background: #2c2c34;
+            border-bottom: 0;
+        }
+    }
+
+    //EndHeader
+
+    //Sidebar
+    .c-sidebar {
+        color: $color;
+        background: #2c2c34;
+        border: 0;
+    }
+
+    //EndSidebar
+
+    //Footer
+    .c-footer {
+        color: $color;
+        background: #1e1e29;
+        border-top: 1px solid $dark;
+    }
+    //EndFooter
+
+    //Modal
+
+    .modal-header {
+        border-color: #2c2c34;
+    }
+    .modal-footer {
+        border-color: #2c2c34;
+    }
+    .modal-content {
+        background-color: #2c2c34;
+        border-color: #2c2c34;
+    }
+
+    //EndModal
+
+    //Progress
+    .progress {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    //EndProgress
+
+    //Jumbotron
+    .jumbotron {
+        background-color: $light_grey;
+    }
+    //EndJumbotron
+
+    //Pagination
+    .page-link {
+        color: $color;
+        background-color: rgba(255, 255, 255, 0.075);
+        border-color: $dark;
+    }
+
+    .page-item.disabled .page-link {
+        color: rgba(255, 255, 255, 0.5);
+        background-color: rgba(255, 255, 255, 0.025);
+        border-color: $dark;
+    }
+    //EndPagination
+
+    //Backgrounds
+
+    .bg-gradient-primary {
+        background: #2d2587 !important;
+        background: linear-gradient(45deg, #4638c2 0%, #2d2587 100%) !important;
+        border-color: #2d2587 !important;
+    }
+    .bg-gradient-warning {
+        background: #dd9124 !important;
+        background: linear-gradient(45deg, #e1a82d 0%, #dd9124 100%) !important;
+        border-color: #dd9124 !important;
+    }
+    .bg-gradient-success {
+        background: #2e8c47 !important;
+        background: linear-gradient(45deg, #45a164 0%, #2e8c47 100%) !important;
+        border-color: #2e8c47 !important;
+    }
+    .bg-gradient-info {
+        background: #4280b4 !important;
+        background: linear-gradient(45deg, #4799eb 0%, #4280b4 100%) !important;
+        border-color: #4280b4 !important;
+    }
+    .bg-gradient-danger {
+        background: #c14f4f !important;
+        background: linear-gradient(45deg, #d16767 0%, #c14f4f 100%) !important;
+        border-color: #c14f4f !important;
+    }
+
+    .bg-light {
+        background-color: $light !important;
+    }
+
+    //EndBackgrounds
+
+    //Navs | Tabs
+    .nav-tabs-boxed .nav-tabs .nav-link.active {
+        background-color: #23242d;
+        border-bottom-color: #23242d;
+    }
+
+    .nav-tabs-boxed .tab-content {
+        color: $color;
+        background-color: #23242d;
+        border-color: #23242d;
+    }
+
+    //EndNavs
+
+    //Other styles
+
+    .border-top {
+        border-top: 1px solid $dark !important;
+    }
+
+    .c-d-dark-none {
+        display: none !important;
+    }
+}
+
+.c-app:not(.c-dark-theme) .c-d-default-none {
+    display: none !important;
+}
+
+.c-header.c-header-fixed {
+    top: 0px;
+}
+
+.login-back-img,
+.director-back-img {
+    &::before {
+        content: "";
+        background-color: $turquoise;
+        opacity: 0.3;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        // z-index: -1;
+        top: 0;
+        left: 0;
+    }
+
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url("/assets/img/backs/login-back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.director-back-img {
+    &::before {
+        top: auto;
+        bottom: 50px;
+    }
+    background-image: url("/assets/img/backs/director-back.jpg");
+    top: auto;
+    bottom: 50px;
+}
+
+$icon_sizes: 16 16px, 32 32px, 64 64px, 128 128px;
+
+@each $size-prop, $size in $icon_sizes {
+    .c-x#{$size-prop} {
+        height: $size;
+        width: $size;
+        font-size: $size;
+    }
+}
+
+.text-turquoise {
+    color: $turquoise;
+}
+.border-turquoise {
+    border: 1px solid;
+    border-color: $turquoise;
+}
+.bg-turquoise {
+    background-color: $turquoise;
+}
+
+.calendar-icon-bottom {
+    position: absolute;
+    bottom: 70px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+
+    &.left {
+        margin-left: 20px;
+    }
+    &.right {
+        right: 20px;
+        flex-direction: row-reverse;
+        span {
+            margin-left: 8px;
+        }
+    }
+}
+
+#aside {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10000;
+    height: 100%;
+}
+
+table.table-cursor > tbody > tr {
+    cursor: pointer;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    padding: 0.25rem 1.5rem;
+}
+
+/* doctors-queue */
+.nav-queue {
+    margin-bottom: 10px;
+}
+.nav-queue .nav-item {
+    margin-right: 3px;
+}
+.nav-queue .nav-link {
+    border-color: #d8dbe0;
+    border-radius: 50em;
+    display: flex;
+    font-weight: 500;
+}
+.nav-queue.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: $turquoise;
+    border-color: $turquoise;
+}
+.nav-queue .badge {
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+    padding: 4px 8px;
+    color: #fff;
+}
+
+.x-overflow-auto {
+    overflow-x: auto;
+}
+
+.tabs-margin-top {
+    margin: 5px;
+}
+
+.buttons-flex-box {
+    float: left;
+    width: 22%;
+    margin-left: 2.5%;
+    margin-top: 0.5%;
+}
+
+.btn-margin {
+    margin-left: 3%;
+    margin-top: 2.5%;
+}
+
+.btn-size {
+    width: 14.5em;
+    height: 7.5em;
+}
+
+.text-align-center {
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    border: 1px solid #39f;
+    margin-top: 5px;
+}
+
+.text-line-height {
+    line-height: 4em;
+}
+
+.text-height {
+    line-height: 2em;
+}
+
+textarea.form-control {
+    min-height: 40px;
+}
+
+//Sent documents
+
+.badge.bade-indicator {
+    &:empty {
+        display: inline-block;
+    }
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+// Tail select style overwrites
+
+.tail-select {
+    width: 100% !important;
+}
+
+.hr-dashed {
+    border-top-style: dashed;
+}
+
+.magicsearch-wrapper {
+    width: auto !important;
+}
+
+input[type="file"] {
+    line-height: 120%;
+}
+
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 rgba(245, 73, 20, 0.6);
+        box-shadow: 0 0 0 0 rgba(245, 73, 20, 0.6);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+        box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+        box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
+}
+
+.pulse {
+    border-radius: 50%;
+    box-shadow: 0 0 0 rgba(245, 73, 20, 0.6);
+    animation: pulse 2s infinite;
+}
+
+.dropdown-limited {
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+.dropdown-item-not-opened {
+    // color: $color;
+    // background-color: $color;
+    text-decoration: none;
+    color: #455164;
+    background-color: #ebedef;
+}
+
+// reception-queue
+.td-overflow-hidden {
+    white-space: nowrap;
+    width: 131px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+.dt-close-details {
+    color: red;
+    border: 1px solid;
+    padding: 2px;
+    margin: 0;
+    line-height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+}
+.dt-open-details {
+    color: #32bba3;
+    border: 1px solid;
+    padding: 2px;
+    margin: 0;
+    line-height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+}
+
+.c-sidebar-dark {
+    background: #00578C;
+}
+
+.c-sidebar .c-sidebar-nav-link .c-sidebar-nav-icon,
+.c-sidebar .c-sidebar-nav-dropdown-toggle .c-sidebar-nav-icon {
+  color:#fefefe;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: #3c4b64;
+    background-color: #ebedef;
+  }
+
+  .c-sidebar .c-sidebar-nav-link, .c-sidebar .c-sidebar-nav-dropdown-toggle {
+    color: rgba(255, 255, 255, 1);
+    background: transparent;
+}
+
+.c-sidebar .c-sidebar-nav-title {
+    color: rgba(255, 255, 255, 1);
+}
+.c-sidebar-nav-title {
+    padding: 0.75rem 1rem;
+    margin-top: 1rem;
+    font-size: 100%;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.25s;
+}
+
+.badge-info {
+    color:#39f;
+    background-color: rgba(255,255,255, 0);
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.badge-danger {
+    color:  #e55353;
+    background-color: rgba(255,255,255, 0);
+}
+
+/* structure-blocks */
+.phpdebugbar-restore-btn {
+    width:5px !important;
+      height: 5px !important;
+  }
+  .structure-block {
+      cursor:pointer;
+      font-size:22px;
+      text-align:center;
+      background-color: #636f83;
+      color:white;
+  }
+  .structure-block-disabled {
+      font-size:22px;
+      text-align:center;
+      background-color:#636f83;
+      color:white;
+      cursor:context-menu;
+  }
+
+  .structure-block-a:hover {
+      text-decoration: none !important;
+  }
+  .sb-departments {
+      background-color: #004a82;
+  }
+  .sb-patients {
+      background-color: #3399ff;
+  }
+  .sb-medicines {
+      background-color: #32cdc9;
+  }
+  .sb-samples {
+      background-color: #00cc99;
+  }
+  .sb-warehouse {
+      background-color: #ff9834;
+  }
+  .sb-reports {
+      background-color: #c80033;
+  }
+  .sb-cashboxes {
+      background-color: #c90066;
+  }
+  .sb-referrals {
+      background-color: #9966ff;
+  }

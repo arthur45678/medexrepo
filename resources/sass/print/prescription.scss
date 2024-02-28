@@ -1,0 +1,17 @@
+@import "print";
+
+.tableName {
+    width: 100%;
+    height: 600px;
+    border-collapse: collapse;
+}
+
+td {
+    width: 30px;
+    text-align: center;
+}
+.tableMedication {
+    width: 100%;
+    height: 200px!important;
+    border-collapse: collapse;
+}

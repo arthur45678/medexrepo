@@ -1,0 +1,366 @@
+[
+    {
+        "code": "45",
+        "name": "Որովայնային և Էնդովիրաբուժական",
+        "closed_from_outside": true,
+        "has_bads": true,
+        "closed_from_inside": false
+    },
+    {
+        "code": "11",
+        "name": "Մամոլոգիա  N1",
+        "closed_from_outside": false,
+        "has_bads": true,
+        "closed_from_inside": true
+    },
+    {
+        "code": "07",
+        "name": "Վիրահատական  բաժ",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "08",
+        "name": "Անզգայացում և վերակենդանացում",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "09",
+        "name": "Նեյրովիրաբուժություն",
+        "closed_from_outside": false,
+        "has_bads": true,
+        "closed_from_inside": false
+    },
+    {
+        "code": "10",
+        "name": "Ընդհանուր ՈՒռուցքաբանություն N1",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+
+    {
+        "code": "14",
+        "name": "Ոսկրային  բաժանմունք",
+        "closed_from_outside": false,
+        "has_bads": true,
+        "closed_from_inside": false
+    },
+    {
+        "code": "15",
+        "name": "ՈՒռոլոգիական  բաժ.",
+        "closed_from_outside": false,
+        "has_bads": true,
+        "closed_from_inside": false
+    },
+    {
+        "code": "16",
+        "name": "Օնկոգինոկոլոգիա N1",
+        "closed_from_outside": false,
+        "has_bads": true,
+        "closed_from_inside": false
+    },
+    {
+        "code": "19",
+        "name": "Թորակալ վիրաբուժության բաժ",
+        "closed_from_outside": false,
+        "has_bads": true,
+        "closed_from_inside": false
+    },
+    {
+        "code": "01",
+        "name": "Ընկերության կենտրոնական պահեստ",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "23",
+        "name": "Ճառագայթային  բաժ.",
+        "closed_from_outside": false,
+        "has_bads": true,
+        "closed_from_inside": false
+    },
+    {
+        "code": "24",
+        "name": "Ռադիոգինեկոլոգիա",
+        "closed_from_outside": false,
+        "has_bads": true,
+        "closed_from_inside": false
+    },
+    {
+        "code": "25",
+        "name": "Էնդոսկոպիա",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "26",
+        "name": "Ռենտգեն  Ախտորոշում",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "27",
+        "name": "Պաթոմորֆոլոգիա",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "28",
+        "name": "Կլինիկական և Կենսաքիմիական  լաբ.",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "29",
+        "name": "Բակտերիոլոգիական  լաբ.",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "30",
+        "name": "Ավտոկլավ",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "31",
+        "name": "ԷԿԳ  կաբինետ",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "32",
+        "name": "Պոլիկլինիկա",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "72",
+        "name": "Վարչական անձնակազմ",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "33",
+        "name": "Դոնորական  կետ",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "34",
+        "name": "Իմունաբանության  լաբ.",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "36",
+        "name": "Դեղատուն",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "40",
+        "name": "Համալիր  ախտորոշում",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "42",
+        "name": "Հիմնական  միջոցներ",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "421",
+        "name": "Հիմնական միջոցներ  հումանիտար",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "43",
+        "name": "Կարդիոլոգ",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "44",
+        "name": "Էպիդեմիոլոգ",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "54",
+        "name": "Պալիատիվ ծառայություն",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+
+    {
+        "code": "67",
+        "name": "Ամբուլատոր-դիսպանսեր հսկողության բաժանմունք",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "57",
+        "name": "Իզոտոպ",
+
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "58",
+        "name": "Գլխավոր բուժքույր",
+        "Response": "Ռ.Վ.Մարդանյան",
+        "Address": "",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "64",
+        "name": "Ընդհանուր և մանկական քիմիաթերապիա",
+        "closed_from_outside": false,
+        "has_bads": true,
+        "closed_from_inside": false
+    },
+    {
+        "code": "65",
+        "name": "Մանկական և Ընդհանուր  Ուռուցքաբանություն",
+        "closed_from_outside": false,
+        "has_bads": true,
+        "closed_from_inside": false
+    },
+    {
+        "code": "66",
+        "name": "Համալիր և Ռենտգեն ախտորոշման բաժին",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+
+    {
+        "code": "68",
+        "name": "Կանանց առողջության կլինիկա",
+        "closed_from_outside": false,
+        "has_bads": true,
+        "closed_from_inside": false
+    },
+    {
+        "code": "69",
+        "name": "Դոնորական արյան կետ",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "70",
+        "name": "Անհատույց ստացած բժշկական պարագա",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "71",
+        "name": "Տնտեսական ծառայություն",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+
+    {
+        "code": "73",
+        "name": "Կադրերի բաժին",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "75",
+        "name": "Ներհիվանդանոցային վիճ. խումբ",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "76",
+        "name": "Հանրապետական վիճ. խումբ",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "77",
+        "name": "Արխիվ",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "79",
+        "name": "Ընդհանուր հիվ. անձնակազմ",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "80",
+        "name": "Ֆինանսական բաժանմունք",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "81",
+        "name": "Գնումների բաժին",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "82",
+        "name": "Կլինիկա-կենսաքիմ․ և իմունաբ․ լաբորատորիա",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "83",
+        "name": "Ախտորոշման ծառայություն",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    },
+    {
+        "code": "84",
+        "name": "Ախտորոշիչ ծառայություն",
+        "closed_from_outside": false,
+        "has_bads": false,
+        "closed_from_inside": false
+    }
+]

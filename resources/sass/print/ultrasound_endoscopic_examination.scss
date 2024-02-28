@@ -1,0 +1,13 @@
+@import "print";
+
+.container-line2{
+    width: 100%;
+    display: flex;
+   
+}
+.container-line2 > div{
+    width: 35%;
+}
+.logo{
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+@import "print";
+
+table{
+    border-collapse: collapse;
+    width: 93rem;
+    text-align: center;
+    height: 440px;
+}
+
+.td-deg{
+    transform: rotate(-90deg);
+}
+.table-deg{
+    transform: rotate(90deg);
+}
+.new-page {
+    page-break-before: always;
+    min-height: 337mm;
+}

@@ -1,0 +1,146 @@
+$page-width: 210mm;
+$page-height: 297mm;
+
+$width_percents: 10 10%, 25 25%, 33 33%, 50 50%, 100 100%;
+
+@each $w-prop, $w in $width_percents {
+    .w-#{$w-prop} {
+        width: $w;
+    }
+}
+
+@font-face {
+    font-family: "GHEA Grapalat";
+    src:    url('/fonts/GHEAGpalatReg.otf'),
+            // url('/fonts/GHEAGpalatBld.otf'),
+            url('/fonts/GHEAGpalatBlit.otf'),
+            url('/fonts/GHEAGpalatRit.otf');
+
+}
+
+html {
+    // This is for sections
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 220mm;
+    margin: 0 auto;
+    background-color: grey;
+    font-family: "GHEA Grapalat";
+}
+
+@page {
+    // size: $page-width $page-height;
+    size: A4;
+}
+.waiting-for-approvement {
+    box-shadow: 0px 1px 5px red; 
+    padding:10px; 
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid red;
+}
+
+@media print {
+    html,
+    body {
+        width: 278mm;
+        height: $page-width;
+    }
+
+    button {
+        display: none;
+    }
+
+    .waiting-for-approvement {
+        padding: 0;
+        border: none;
+        box-shadow: none;
+        border-radius: none;
+    }
+
+    .print-hide {
+        display: none;
+    }
+    
+    
+}
+
+.main-container {
+    margin-left: 10px ;
+    width: 98%; 
+}
+
+.display-flex {
+    display: flex;
+}
+
+/*.bottom-line {
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+}*/
+.bottom-line {
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+  
+    }
+
+.bottom-line-m {
+    margin-left: 5%;
+    border-bottom: 1px solid black;
+    
+    }
+
+.bottom-line1 {
+    width: 215px;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+    
+    }
+
+//Utils
+.text-align-center,
+.text-center {
+    text-align: center;
+}
+
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+
+.page-wrap {
+    background-color: white;
+}
+
+/*.margin-left {
+    //margin-left: 150px;
+    margin-left: 0px;
+    width: auto;
+}*/
+
+.margin-left {
+    margin-left: 150px;
+ 
+}
+
+//Tables
+td,
+tr,
+th {
+    border: 1px solid;
+}
+.table{
+    border-collapse: collapse;
+}
+
+.new-page {
+    page-break-before: always;
+    min-height: 280mm;
+}
+
+p {
+    border-bottom: 1px solid black;
+}

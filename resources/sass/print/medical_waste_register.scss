@@ -1,0 +1,22 @@
+@import "print";
+
+
+td,th{
+    height: 14px;
+    
+  
+}
+th{
+    text-align: center;
+    width: 30px;
+    overflow-wrap: break-word;
+    
+    
+} 
+
+
+table{border:1px solid;
+      width: 100%;
+      border-collapse: collapse;
+      overflow-wrap: break-word;
+  }

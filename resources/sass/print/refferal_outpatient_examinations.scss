@@ -1,0 +1,40 @@
+@import "print";
+
+img {
+    width: 100px;
+}
+
+.item1 {
+    width: 44%;
+    border: 1px solid black;
+    height: 75px;
+}
+
+.item2 {
+    width: 13%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.item3 {
+    width: 42%;
+    border: 1px solid black;
+    height: 75px;
+}
+
+.line-height {
+    line-height: 70px;
+}
+
+table {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    height: 30px;
+}
+
+    
